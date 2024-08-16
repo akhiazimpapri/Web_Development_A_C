@@ -1,12 +1,35 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffa511;
+    color: #a52a2a;
     text-align: center;
-    font-size: 55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    text-decoration: rgb(00, 255, 255) underline;
-    text-decoration-style: double;
-    text-transform: uppercase;
+    line-height: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea {
+    color: #000000;
 }
