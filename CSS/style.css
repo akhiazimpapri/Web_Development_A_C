@@ -1,35 +1,25 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p {
-    color: #a52a2a;
-    text-align: center;
-    line-height: 30px;
-}
-
-h1 {
-    text-align: center;
-    color: red;
-    text-decoration: underline;
-    
+    font-family: 'Courier New';
 }
 
 h3 {
-    text-align: center;
-    color: black;
+    color: purple;
 }
 
-a {
-    color: green;
-    text-decoration: none;
+h1 {
+    color: #b92b27;
 }
 
-button {
+#login {
     background-color: white;
-    color: blueviolet;
 }
 
-textarea {
-    color: #000000;
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
 }
