@@ -1,62 +1,42 @@
-.box {
-    height: 100px;
-    width: 300px;
-    background-color: pink;
+ h1 {
+    background-color: yellow;
+    border: 2px solid black;
+ }
 
-    /* animation-name: fontAnimation;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 0;
-    animation-iteration-count: 3;
-    animation-direction: normal; */
-
-    /* animation-name: colorAnimate;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 0;
-    animation-iteration-count: 3;
-    animation-direction: normal; */
-
-    /* animation-name: widthAnimate;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
-    animation-direction: normal; */
-
-    animation: widthAnimate 2s ease-in-out 1s infinite normal;
-}
-
-@keyframes widthAnimate {
-    from {
-        width: 10px;
-        background-color: green;
-        font-size: 20px;
+ @media (width :600px) {
+    h1 {
+        background-color: red;
+        color: white;
     }
-    to {
-        width: 400px;
+
+    div {
+        height: 100px;
+        width: 100px;
         background-color: blue;
-        font-size: 40px;
-        border-radius: 20px;
-    }
-}
+     }
+ }
 
-
-/* @keyframes fontAnimation {
-    from {
-        font-size: 20px;
-    }
-    to {
-        font-size: 40px;
-    }
-} */
-
-/* @keyframes colorAnimate {
-    from {
+ /* @media (min-width : 500px) {
+    h1 {
         background-color: green;
     }
-    to {
-        background-color: blue;
-    }
-} */
+ } 
 
+ @media (max-width : 201px) {
+    h1 {
+        background-color: pink;
+    }
+ } */
+
+ @media (min-width : 200px) and (max-width  : 300px) {
+    h1 {
+        background-color: green;
+    }
+ } 
+
+ @media (orientation : landscape) {
+    h1 {
+        background-color: aqua;
+        color: brown;
+    }
+ }
