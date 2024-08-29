@@ -1,3 +1,5 @@
+/*Question 1*/
+
 #outer {
     height: 400px;
     width: 400px;
@@ -16,5 +18,23 @@
     background-color: gray;
     border: 3px solid black;
     border-radius: 5%;
+    text-align: center;
+}
+
+/*Question 2*/
+
+#container {
+    height: 50px;
+    width: 900px;
+    border: 3px solid rgba(0, 128, 0, 0.804);
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+}
+
+#item {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
     text-align: center;
 }
