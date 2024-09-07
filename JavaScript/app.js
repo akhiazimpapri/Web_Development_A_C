@@ -1,8 +1,34 @@
-let str = "akhi";
-let length = str.length;
+let day = 1;
 
-if(str[0] === 'a' && length > 3) {
-    console.log("It is a good string.");
-} else {
-    console.log("It is not a good string.");
+switch(day) {
+    case 1:
+    console.log("Monday");
+    break;
+
+    case 2:
+    console.log("Tuesday");
+    break;
+
+    case 3:
+    console.log("Wednesday");
+    break;
+
+    case 4:
+    console.log("Thursday");
+    break;
+
+    case 5:
+    console.log("Friday");
+    break;
+
+    case 6:
+    console.log("Saturday");
+    break;
+
+    case 7:
+    console.log("Sunday");
+    break;
+
+    default:
+        console.log("This is not a day");
 }
