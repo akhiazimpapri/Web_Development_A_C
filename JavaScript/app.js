@@ -1,14 +1,14 @@
-let color = "green";
+let size = "XL";
 
-//Traffic light system.
-if(color === "red") {
-    console.log("stop! Light color is red.");
+//Popcorn price calculation
+
+if(size === "XL") {
+    console.log("The price is RS. 250");
+} else if( size === "L") {
+    console.log("The price is RS. 200");
+} else if( size === "M") {
+    console.log("The price is RS. 100");
+} else if( size === "S") {
+    console.log("The price is RS. 50");
 }
 
-if(color === "yellow") {
-    console.log("slow down! Light color is yellow.");
-}
-
-if(color === "green") {
-    console.log("go! Light color is green.");
-}
