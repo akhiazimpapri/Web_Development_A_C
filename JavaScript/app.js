@@ -1,14 +1,8 @@
-let size = "XL";
+let str = "akhi";
+let length = str.length;
 
-//Popcorn price calculation
-
-if(size === "XL") {
-    console.log("The price is RS. 250");
-} else if( size === "L") {
-    console.log("The price is RS. 200");
-} else if( size === "M") {
-    console.log("The price is RS. 100");
-} else if( size === "S") {
-    console.log("The price is RS. 50");
+if(str[0] === 'a' && length > 3) {
+    console.log("It is a good string.");
+} else {
+    console.log("It is not a good string.");
 }
-
