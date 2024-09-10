@@ -1,42 +1,28 @@
-//Qs 1
+let  todo = [];
+let req = prompt("please enter your request");
 
-let arr = [7, 9, 0, -2];
-console.log(arr.slice(0,3));
+while(true) {
 
-//QS 2
-let n = 3; 
+    if(req == "list") {
+        console.log("--------------");
+        for(let i=0; i<todo.length; i++) {
+            console.log(i, todo[i]);
+        }
+        console.log("--------------");
+    } else if(req == "add") {
+        let task = prompt("Please enter the task you want to add");
+        todo.push(task);
+        console.log("task added");
+    } else if(req == "delete") {
+        let indx = prompt("please enter the task index");
+        todo.splice(indx, 1);
+        console.log("task deleted");
+    } else if(req == "quit") {
+        console.log("quitting app");
+        break;
+    } else {
+        console.log("wrong request");
+    }
 
-let ans = arr.slice(arr.length-n); 
-console.log(ans);
-
-//QS 3
-
-let str = prompt("please enter a string");
-if(str.length==0) {
-    console.log("string is empty");
-} else {
-    console.log("string is not empty");
-}
-
-//QS 4
-if(str[n] == str[n].toLowerCase()) {
-    console.log("It is lower case.")
-} else {
-    console.log("not lower case");
-}
-
-//QS 5
-let stri = prompt("please enter a string");
-console.log(`original string = ${stri}`); 
-console.log(`string without spaces = ${stri.trim()}`);
-
-//QS 6
-                   
-let arri = ['hello', 'a', 23, 65, 99, -6];
-let item = 65;
-
-if(arri.indexOf(item) != -1) {
-    console.log("element exists in array");
-} else {
-    console.log("elementdoesn'texistinarray");
+    req = prompt("please enter your request"); 
 }
