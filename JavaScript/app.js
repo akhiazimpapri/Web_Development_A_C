@@ -1,9 +1,18 @@
-let random1 = Math.floor(Math.random() * 100) + 1; //1 to 100
+let max = prompt("Enter a maximum number:");
+let guess = prompt(`Guess a random number between 1 to ${max}:`);
+let random = Math.floor(Math.random() * max) + 1;
 
-let random2 = Math.floor(Math.random() * 5) + 1; //1 to 5
- 
-let random3 = Math.floor(Math.random() * 5) + 21; //21 to 25
+while(true) {
+    if(guess === "quit") {
+        console.log("You quited");
+        break;
+    } else if(guess === random) {
+        console.log("You have guess the right number! congrats!!");
+        break;
+    } else if(guess < random) {
+        guess = prompt("Your guess was too small.Try again.");
+    } else if(guess > random) {
+        guess = prompt("Your guess was too large.Try again.");
+    } 
+}
 
-console.log(random1);
-console.log(random2);
-console.log(random3);
