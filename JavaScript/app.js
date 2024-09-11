@@ -1,14 +1,9 @@
-const post = {
-    username : "@AkhiAzimPapri",
-    content : "This is my #firstPost",
-    likes :  150,
-    repost : 5,
-    tags : ["@AkhiAzimPapri","@ApnaCollege","@delta"]
-};
+let random1 = Math.floor(Math.random() * 100) + 1; //1 to 100
 
-console.log(post);
-//Get values.
-console.log(post.username);
-console.log(post["content"]);
-console.log(post.tags[0]);
-// console.log(post["tag[2]"]); it's not possible.
+let random2 = Math.floor(Math.random() * 5) + 1; //1 to 5
+ 
+let random3 = Math.floor(Math.random() * 5) + 21; //21 to 25
+
+console.log(random1);
+console.log(random2);
+console.log(random3);
