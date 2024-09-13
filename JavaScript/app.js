@@ -1,25 +1,29 @@
-//QS 1
-let random = Math.floor(Math.random() * 6) + 1;
+function printPoem() {
+    console.log("The Raven");
 
-console.log(random);
+ console.log("by Edgar Allen Poe");
 
+ console.log("Deep into that darkness peering,");
 
-//QS 2
-let car = {
-    name: 'suv',
-    model: 2005,
-    color: 'red'
-};
+ console.log("Long I stood there, wondering, fearing,");
 
-console.log(car.name);
+ console.log("Doubting, dreaming dreams no mortals");
 
-//QS 3
-let person = {
-    name: "Akhi Azim Papri",
-    age: 24,
-    city: "Rajshahi"
-};
+ console.log("Ever dared to dream before;");
 
-person.city = "New York";
-person.country = "United States";
-console.log(person);
+ console.log("But the silence was unbroken,");
+
+ console.log("And the stillness gave no token,");
+
+ console.log("And the only word there spoken");
+
+ console.log('Was the whispered word, "Lenore!"');
+
+ console.log("This I whispered, and an echo");
+
+ console.log('Murmured back the word, "Lenore!"');
+
+ console.log("Merely this, and nothing more.");
+}
+
+printPoem();
