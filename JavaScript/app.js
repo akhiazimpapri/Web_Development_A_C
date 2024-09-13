@@ -1,5 +1,7 @@
-function average(num1, num2, num3) {
-    console.log((num1 + num2 + num3)/3);
+function multiplicationTable(number) {
+    for(let i = 1; i < 10; i++) {
+        console.log(i * number);
+    }
 }
 
-average(5,6,3);
+multiplicationTable(5);
