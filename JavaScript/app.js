@@ -1,5 +1,5 @@
-function dice() {
-    console.log(Math.floor(Math.random() * 6) + 1);
+function average(num1, num2, num3) {
+    console.log((num1 + num2 + num3)/3);
 }
 
-dice();
+average(5,6,3);
