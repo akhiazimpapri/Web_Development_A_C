@@ -1,7 +1,9 @@
-function multiplicationTable(number) {
-    for(let i = 1; i < 10; i++) {
-        console.log(i * number);
+function sum(num) {
+    let summ = 0;
+    for(let i = 1; i <= num; i++) {
+        summ = summ + i;
     }
+    return summ;
 }
 
-multiplicationTable(5);
+console.log(sum(100));
