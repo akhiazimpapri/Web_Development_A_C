@@ -1,9 +1,12 @@
-function sum(num) {
-    let summ = 0;
-    for(let i = 1; i <= num; i++) {
-        summ = summ + i;
+let str = ["Akhi", "Azim", "Papri"];
+
+function concat(str) {
+    let result = "";
+    for(let i = 0; i < str.length; i++) {
+        result = result + str[i];
     }
-    return summ;
+    return(result);
 }
 
-console.log(sum(100));
+console.log(str);
+console.log(concat(str));
