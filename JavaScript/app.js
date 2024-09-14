@@ -1,13 +1,5 @@
-let greet = "hello";//global scope
-
-function changeGreet() {
-   let greet = "namaste";//function scope
-   console.log(greet);
-   function innerGreet() {
-    console.log(greet);//lexical scope
-   }
-   innerGreet();
+const sum = function(a, b) {
+    return a + b;
 }
 
-console.log(greet);
-changeGreet();
+console.log(sum(2, 3));
