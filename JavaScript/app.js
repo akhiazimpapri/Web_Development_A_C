@@ -1,12 +1,12 @@
-let str = ["Akhi", "Azim", "Papri"];
+let greet = "hello";
 
-function concat(str) {
-    let result = "";
-    for(let i = 0; i < str.length; i++) {
-        result = result + str[i];
-    }
-    return(result);
+function changeGreet() {
+   let greet = "namaste";
+   console.log(greet);
+   function innerGreet() {
+    console.log(greet);
+   }
 }
 
-console.log(str);
-console.log(concat(str));
+console.log(greet);
+changeGreet();
