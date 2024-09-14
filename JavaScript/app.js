@@ -6,6 +6,7 @@ function changeGreet() {
    function innerGreet() {
     console.log(greet);
    }
+   innerGreet();
 }
 
 console.log(greet);
