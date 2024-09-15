@@ -1,5 +1,11 @@
-const sum = function(a, b) {
-    return a + b;
+function multipleGreet(func, n) {
+    for(let i=1; i<=n; i++) {
+        func();
+    }
 }
 
-console.log(sum(2, 3));
+let greet = function() {
+    console.log("Hello");
+}
+
+multipleGreet(greet, 3);
